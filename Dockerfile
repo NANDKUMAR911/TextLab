@@ -13,4 +13,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Run entry point
-CMD ["python3", "bot"]
+CMD ["python3", "bot/__main__.py"]
